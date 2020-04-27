@@ -7,7 +7,7 @@
 4. if the digit larger than 10 sum all the digit again
 
 ## answer
-any birthday will converge to 9
+any birthday date or any number will converge to 9
 
 ## example
 ### my birthday is 7th of April.
@@ -25,25 +25,25 @@ any birthday will converge to 9
 ## proof
 ### let say any number of "n":
 
-18n = $n_{1}$ + 10$n_{2}$ + 100$n_{3}$ + 1000$n_{4}$ + ... ...
+<sub>18n = $n_{1}$ + 10$n_{2}$ + 100$n_{3}$ + 1000$n_{4}$ + ... ...</sub>
 
 ### rewrite the equation:
 
-18n = ($n_{2}$+$n_{2}$+$n_{3}$+... ...) + (9$n_{2}$+99$n_{3}$+999$n_{4}$+... ...)
+<sub>18n = ($n_{2}$+$n_{2}$+$n_{3}$+... ...) + (9$n_{2}$+99$n_{3}$+999$n_{4}$+... ...)</sub>
 
-18n = $\sum$digits + (9$n_{2}$+99$n_{3}$+999$n_{4}$+... ...)
+<sub>18n = $\sum$digits + (9$n_{2}$+99$n_{3}$+999$n_{4}$+... ...)</sub>
 
 ### move the euqation
 
-$\sum$digits = 18n - (9$n_{2}$+99$n_{3}$+999$n_{4}$+... ...)
+<sub>$\sum$digits = 18n - (9$n_{2}$+99$n_{3}$+999$n_{4}$+... ...)</sub>
 
 ### factorise the 9 out from the Right Hand Side (RHS)
 
-$\sum$digits = 9 * (2n - (9$n_{2}$+99$n_{3}$+999$n_{4}$+... ...))
+<sub>$\sum$digits = 9 * [2n - (9$n_{2}$+99$n_{3}$+999$n_{4}$+... ...)]</sub>
 
 ### further carry out sum of digit
 
-for the part "(2n - (9$n_{2}$+99$n_{3}$+999$n_{4}$+... ...))"
+for the part "<sub>(2n - (9$n_{2}$+99$n_{3}$+999$n_{4}$+... ...))</sub>"
 
 no matter what is the number, sum of digit will converge to number 1~9
 
