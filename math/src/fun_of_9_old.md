@@ -25,26 +25,25 @@ any birthday date or any number will converge to 9
 ## proof
 ### let say any number of "n":
 
-![eqn1](src/fun_of_9_1.png)
+<sub>18n = $n_{1}$ + 10$n_{2}$ + 100$n_{3}$ + 1000$n_{4}$ + ... ...</sub>
 
 ### rewrite the equation:
 
-![eqn2](src/fun_of_9_2.png)
+<sub>18n = ($n_{2}$+$n_{2}$+$n_{3}$+... ...) + (9$n_{2}$+99$n_{3}$+999$n_{4}$+... ...)</sub>
+
+<sub>18n = $\sum$digits + (9$n_{2}$+99$n_{3}$+999$n_{4}$+... ...)</sub>
 
 ### move the euqation
 
-![eqn3](src/fun_of_9_3.png)
+<sub>$\sum$digits = 18n - (9$n_{2}$+99$n_{3}$+999$n_{4}$+... ...)</sub>
 
 ### factorise the 9 out from the Right Hand Side (RHS)
 
-![eqn4](src/fun_of_9_4.png)
+<sub>$\sum$digits = 9 * [2n - (9$n_{2}$+99$n_{3}$+999$n_{4}$+... ...)]</sub>
 
 ### further carry out sum of digit
 
-for the part
-
-![eqn5](src/fun_of_9_5.png)
-
+for the part "<sub>(2n - (9$n_{2}$+99$n_{3}$+999$n_{4}$+... ...))</sub>"
 
 no matter what is the number, sum of digit will converge to number 1~9
 
