@@ -31,7 +31,7 @@ any birthday date or any number will converge to 9
 
 ![eqn2](src/fun_of_9_2.png)
 
-### move the euqation
+### move the equation
 
 ![eqn3](src/fun_of_9_3.png)
 
